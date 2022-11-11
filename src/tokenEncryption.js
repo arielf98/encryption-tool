@@ -1,6 +1,6 @@
 const CryptoJS = require("crypto-js");
 
-const TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXJ0bmVySWQiOiJXVl8wMTcyIiwiY2xpZW50U2VjcmV0IjoiMGY5MmVmY2Y0YWEyNGM0ZjFhYjBlZDA4MTkzOTY2NThjYTZkN2YzZTAyOTk1MDI1MzU3N2U4NDc3OTY0IiwiY2xpZW50SWQiOiI1OTM4MmNkM2M1ODJhOGY0MGRlOCIsIlZUdG9rZW4iOiI1YjZhYTA0YmJlYWRjMDIyYzU3NTk4ZTUwZWJlMjRkODhiYjlkMGZjYWEzZmY5N2E5NmQ3N2M5NDI5MzY1MjdmIn0.9PzcxAaEaNjZyfq5_3QURHnPccBG35uSduypx84n-gA"
+const TOKEN = "your-token"
 // const TOKEN = {
 //     partnerId: "WV_0172",
 //     clientSecret: "0f92efcf4aa24c4f1ab0ed0819396658ca6d7f3e029950253577e8477964",
@@ -9,7 +9,7 @@ const TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXJ0bmVySWQiOiJXVl8wMTcy
 // }
 
 // don't share the secret key to non authority person.
-const SECRET_KEY = 'secret';
+const SECRET_KEY = 'your-secret';
 
 
 // ENCRYPT TOKEN
